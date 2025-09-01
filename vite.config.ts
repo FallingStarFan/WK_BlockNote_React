@@ -1,8 +1,15 @@
 import react from "@vitejs/plugin-react";
-import * as path from "path";
+
 import { webpackStats } from "rollup-plugin-webpack-stats";
 import { defineConfig } from "vite";
 import pkg from "./package.json";
+
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+import path from "path";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
 // import eslintPlugin from "vite-plugin-eslint";
 
 // https://vitejs.dev/config/
