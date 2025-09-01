@@ -35,6 +35,10 @@ jobs:
           npm rebuild rollup
           npm install @hocuspocus/provider
 
+      - name: Clone blocknote core
+        run: |
+          git clone https://github.com/FallingStarFan/WK_BlockNote_Core ../blocknote-custom-core
+
       # 4️⃣ Build project
       - name: Build project
         run: npm run build
