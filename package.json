@@ -58,7 +58,7 @@
     "clean": "rimraf dist && rimraf types"
   },
   "dependencies": {
-    "@blocknote/core": "git+http://10.0.210.62/Kevin.Liu/blocknote-custom-core.git#release",
+    "@blocknote/core": "git+https://github.com/FallingStarFan/WK_BlockNote_Core#release",
     "@emoji-mart/data": "^1.2.1",
     "@floating-ui/react": "^0.26.4",
     "@tiptap/core": "^2.12.0",
